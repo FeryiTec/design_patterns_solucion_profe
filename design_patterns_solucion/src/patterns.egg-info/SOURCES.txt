@@ -1,0 +1,8 @@
+setup.py
+patterns/__init__.py
+patterns/csv_utils.py
+patterns/web_report.py
+patterns.egg-info/PKG-INFO
+patterns.egg-info/SOURCES.txt
+patterns.egg-info/dependency_links.txt
+patterns.egg-info/top_level.txt
