@@ -6,12 +6,14 @@ from patterns.ReportGenerator import ReportGenerator
 CSV_FILE = "taxi-data.csv"
 
 
+
 def main(strategy):
     rides = csv_utils.parse_file(CSV_FILE) # Type: List[Ride]
 
     # Factory Method
     if strategy == "web":
         generator = ReportGenerator(web_report)
+        
     else:
         generator = ReportGenerator(print_report)
 
